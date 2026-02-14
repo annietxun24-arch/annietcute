@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU GOT A MAIL ! 💌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nhạc nền -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="vạn vật như muốn ta bên nhau.mp3" type="audio/mpeg">
+    </audio>
+    <button id="musicToggle">🔊 click cái này trước cho xôm coaii</button>
+
+    <!-- Background trái tim -->
+    <div class="heart-bg" id="heartBg"></div>
+
+    <!-- Bì thư animation -->
+    <div class="envelope" id="envelope">
+        <div class="letter" id="letter">💌</div>
+    </div>
+
+    <h1>YOU GOT A MAIL ! 💌</h1>
+    <button id="startBtn">I PROMISE U’LL LIKE MY LOVE</button>
+
+    <!-- 4 emoji options -->
+    <div id="options">
+        <button id="flowerBtn">🌸 Get my heart</button>
+        <button id="houseBtn">🏠 Get a house</button>
+        <button id="carBtn">🚗 Get a car</button>
+        <button id="girlBtn">👩 ME</button>
+    </div>
+
+    <!-- Tin nhắn + reply -->
+    <div id="messageContainer">
+        <div id="message"></div>
+        <div id="replyContainer">
+            <input type="text" id="replyInput" placeholder="Do wanna send your love for me ?">
+            <button id="sendBtn">Send ❤️</button>
+            <div id="replyDisplay"></div>
+        </div>
+        <button class="back-btn" id="backBtn">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
